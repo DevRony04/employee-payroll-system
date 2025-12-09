@@ -19,13 +19,13 @@ README: |
   ---
 
   ## 📂 Project Structure
-   EmployeePayrollSystem:
-    src:
-      Employee.java: "Abstract base class"
-      FullTimeEmployee.java: "Full-time employee class"
-      PartTimeEmployee.java: "Part-time employee class"
-      PayrollSystem.java: "Main terminal program"
-    README.md: "Project documentation"
+   - EmployeePayrollSystem:
+    - src:
+      - Employee.java: "Abstract base class"
+      - FullTimeEmployee.java: "Full-time employee class"
+      - PartTimeEmployee.java: "Part-time employee class"
+      - PayrollSystem.java: "Main terminal program"
+    - README.md: "Project documentation"
 
 ---
 
