@@ -1,4 +1,3 @@
-README: |
   # 🚀 Employee Payroll System (Java OOP Project)
 
   A terminal-based **Employee Payroll System** built in Java, demonstrating core  
