@@ -59,7 +59,7 @@ javac src/*.java
 ## ▶️ Run the Application
 **run_command:**
 ```bash
-java src/EmployeePayrollSystem
+java src/Employee Payroll System
 ```
 
 ## 📜 License 
