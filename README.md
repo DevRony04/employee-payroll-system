@@ -20,7 +20,7 @@ README: |
 
   ## 📂 Project Structure
    - EmployeePayrollSystem:
-    - src:
+     - src:
       - Employee.java: "Abstract base class"
       - FullTimeEmployee.java: "Full-time employee class"
       - PartTimeEmployee.java: "Part-time employee class"
