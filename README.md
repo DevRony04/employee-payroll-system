@@ -1,88 +1,85 @@
-title: "Employee Payroll System - Java OOP Project"
-description: >
-  A terminal-based Employee Payroll System built in Java, demonstrating clean
-  Object-Oriented Programming (OOP) principles including abstraction,
-  inheritance, encapsulation, and polymorphism. Designed as a learning-focused
-  yet industry-standard implementation showcasing modular class design and
-  extendable architecture.
+project:
+  name: Employee Payroll System
+  description: >
+    A terminal-based Employee Payroll System built in Java, showcasing Object-Oriented Programming (OOP) concepts such as abstraction, inheritance, encapsulation, and polymorphism. 
+    Ideal for beginners learning Java and developers wanting to strengthen their OOP understanding.
 
-highlights:
-  - Abstract Employee class defining shared structure and behavior
-  - FullTimeEmployee and PartTimeEmployee concrete subclasses
-  - Polymorphic salary computation through overridden methods
-  - Encapsulated data handling using private fields and accessors
-  - Interactive terminal interface for managing employee records
-  - Clean, maintainable, industry-standard Java OOP architecture
+features:
+  - Abstract Employee class serving as blueprint for all employee types
+  - Subclasses:
+      - FullTimeEmployee: monthly salary calculation
+      - PartTimeEmployee: hourly wage calculation
+  - Polymorphic salary computation for different employee roles
+  - Secure and encapsulated data handling
+  - Terminal-based user interface to add/manage employees
+  - Clean, modular code following industry-standard OOP practices
 
 project_structure:
-  root_directory: "EmployeePayrollSystem"
-  folders:
+  EmployeePayrollSystem:
     src:
-      - Employee.java
-      - FullTimeEmployee.java
-      - PartTimeEmployee.java
-      - PayrollSystem.java
-  documents:
-    - README.md
+      - Employee.java: Abstract base class
+      - FullTimeEmployee.java: Concrete subclass
+      - PartTimeEmployee.java: Concrete subclass
+      - PayrollSystem.java: Main program (terminal interface)
+    README.md: Project documentation
 
 oop_concepts:
-  Abstraction: >
-    Employee is an abstract base class providing a shared blueprint for all
-    employee types.
-  Inheritance: >
-    FullTimeEmployee and PartTimeEmployee extend Employee to reuse and
-    specialize functionality.
-  Polymorphism: >
-    Salary calculation is implemented differently in each subclass while
-    referenced through a common interface.
-  Encapsulation: >
-    Sensitive fields remain private and are accessed through controlled getters
-    and setters.
+  abstraction: Abstract class 'Employee' defines common structure
+  inheritance: Employee types extend the base 'Employee' class
+  polymorphism: Each employee type calculates salary differently
+  encapsulation: Private fields with getters/setters ensure data safety
 
-technologies:
-  language: Java
-  version: "JDK 8+"
-  paradigms:
-    - Object-Oriented Programming
-    - Modular Class Design
-    - Terminal-Based Interaction
+technologies_used:
+  - Java (JDK 8 or above)
+  - Object-Oriented Programming
+  - Scanner (for terminal input)
 
-usage_context: >
-  This project is ideal for Java learners, academic assignments, interview
-  preparation, and as a portfolio example showcasing strong understanding of
-  OOP concepts and clean code practices.
+getting_started:
+  steps:
+    - Clone the repository:
+        command: git clone https://github.com/your-username/employee-payroll-system.git
+    - Navigate into project directory:
+        command: cd employee-payroll-system
+    - Compile the source code:
+        command: javac src/*.java
+    - Run the application:
+        command: java src/PayrollSystem
 
-sample_behaviour:
-  menu_example: |
-    ===== Employee Payroll System =====
-    1. Add Full-Time Employee
-    2. Add Part-Time Employee
-    3. Display Employees
-    4. Exit
-
-  salary_output_example: |
-    Employee Name: John Doe
-    Type: Full-Time Employee
-    Salary: ₹50,000
+usage_example:
+  terminal_menu:
+    - "===== Employee Payroll System ====="
+    - "1. Add Full-Time Employee"
+    - "2. Add Part-Time Employee"
+    - "3. Display Employees"
+    - "4. Exit"
+    - "Enter your choice:"
+  sample_output:
+    - "Employee Name: John Doe"
+    - "Type: Full-Time"
+    - "Salary: ₹50,000"
 
 learning_outcomes:
-  - Designing and working with abstract classes
-  - Implementing inheritance and polymorphism in real applications
-  - Structuring modular and scalable Java codebases
-  - Handling user input and interactive terminal workflows
-  - Applying encapsulation principles to protect data
+  - Design abstract classes and concrete subclasses
+  - Understand polymorphism for flexible program design
+  - Apply encapsulation to protect and organize data
+  - Build modular and maintainable Java codebases
 
 future_enhancements:
-  - File or database persistence for employee records
-  - Update and delete employee functionality
-  - New employee categories (Contract, Freelancer, Intern)
-  - GUI implementation using JavaFX or Swing
-  - REST API version for modern applications
+  - Save employee data to files or a database
+  - Update or delete employee records
+  - Add more employee types (Contract, Intern, Freelancer)
+  - Create a GUI version using JavaFX or Swing
 
-contributing: >
-  Contributions are welcome. Suggestions, improvements, and pull requests help
-  enhance functionality and evolve this project into a more robust learning
-  resource.
+contributing:
+  instructions:
+    - Fork the repository
+    - Create a feature branch
+    - Commit your changes
+    - Submit a pull request
 
-license: "MIT or any preferred open-source license"
+support:
+  note: If you found this project helpful, please consider giving it a star ⭐ on GitHub!
 
+license:
+  recommended: MIT License
+  note: Add your preferred license if you intend to make this open source
