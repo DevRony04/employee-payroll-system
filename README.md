@@ -1,85 +1,57 @@
-project:
-  name: Employee Payroll System
-  description: >
-    A terminal-based Employee Payroll System built in Java, showcasing Object-Oriented Programming (OOP) concepts such as abstraction, inheritance, encapsulation, and polymorphism. 
-    Ideal for beginners learning Java and developers wanting to strengthen their OOP understanding.
+README: |
+  # 🚀 Employee Payroll System (Java OOP Project)
 
-features:
-  - Abstract Employee class serving as blueprint for all employee types
-  - Subclasses:
-      - FullTimeEmployee: monthly salary calculation
-      - PartTimeEmployee: hourly wage calculation
-  - Polymorphic salary computation for different employee roles
-  - Secure and encapsulated data handling
-  - Terminal-based user interface to add/manage employees
-  - Clean, modular code following industry-standard OOP practices
+  A terminal-based **Employee Payroll System** built in Java, demonstrating core  
+  Object-Oriented Programming concepts: **abstraction, inheritance, encapsulation, and polymorphism**.  
+  Ideal for beginners and developers strengthening Java OOP fundamentals.
 
-project_structure:
-  EmployeePayrollSystem:
+  ---
+
+  ## 🔥 Features
+  - Abstract `Employee` class as the base blueprint  
+  - `FullTimeEmployee` – monthly salary calculation  
+  - `PartTimeEmployee` – hourly wage calculation  
+  - Polymorphism for flexible salary computation  
+  - Encapsulated employee data with getters/setters  
+  - User-friendly terminal interface  
+  - Clean, modular, industry-standard OOP structure  
+
+  ---
+
+  ## 📂 Project Structure
+   EmployeePayrollSystem:
     src:
-      - Employee.java: Abstract base class
-      - FullTimeEmployee.java: Concrete subclass
-      - PartTimeEmployee.java: Concrete subclass
-      - PayrollSystem.java: Main program (terminal interface)
-    README.md: Project documentation
+      Employee.java: "Abstract base class"
+      FullTimeEmployee.java: "Full-time employee class"
+      PartTimeEmployee.java: "Part-time employee class"
+      PayrollSystem.java: "Main terminal program"
+    README.md: "Project documentation"
 
-oop_concepts:
-  abstraction: Abstract class 'Employee' defines common structure
-  inheritance: Employee types extend the base 'Employee' class
-  polymorphism: Each employee type calculates salary differently
-  encapsulation: Private fields with getters/setters ensure data safety
+---
 
-technologies_used:
-  - Java (JDK 8 or above)
-  - Object-Oriented Programming
-  - Scanner (for terminal input)
+## 🧠 OOP Concepts Demonstrated
+### ✔ Abstraction  
+`Employee` defines core structure and behavior for all employee types.
 
-getting_started:
-  steps:
-    - Clone the repository:
-        command: git clone https://github.com/your-username/employee-payroll-system.git
-    - Navigate into project directory:
-        command: cd employee-payroll-system
-    - Compile the source code:
-        command: javac src/*.java
-    - Run the application:
-        command: java src/PayrollSystem
+### ✔ Inheritance  
+`FullTimeEmployee` and `PartTimeEmployee` extend the base class.
 
-usage_example:
-  terminal_menu:
-    - "===== Employee Payroll System ====="
-    - "1. Add Full-Time Employee"
-    - "2. Add Part-Time Employee"
-    - "3. Display Employees"
-    - "4. Exit"
-    - "Enter your choice:"
-  sample_output:
-    - "Employee Name: John Doe"
-    - "Type: Full-Time"
-    - "Salary: ₹50,000"
+### ✔ Polymorphism  
+Each subclass overrides salary calculation independently.
 
-learning_outcomes:
-  - Design abstract classes and concrete subclasses
-  - Understand polymorphism for flexible program design
-  - Apply encapsulation to protect and organize data
-  - Build modular and maintainable Java codebases
+### ✔ Encapsulation  
+Private fields, getters, setters ensure secure data handling.
 
-future_enhancements:
-  - Save employee data to files or a database
-  - Update or delete employee records
-  - Add more employee types (Contract, Intern, Freelancer)
-  - Create a GUI version using JavaFX or Swing
+---
 
-contributing:
-  instructions:
-    - Fork the repository
-    - Create a feature branch
-    - Commit your changes
-    - Submit a pull request
+## 🛠️ Technologies Used
+- Java (JDK 8+)
+- Object-Oriented Programming
+- Scanner (Terminal Input)
 
-support:
-  note: If you found this project helpful, please consider giving it a star ⭐ on GitHub!
+---
 
-license:
-  recommended: MIT License
-  note: Add your preferred license if you intend to make this open source
+## ▶️ Running the Project
+**Compile:**
+```bash
+javac src/*.java
