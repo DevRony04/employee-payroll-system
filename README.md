@@ -54,3 +54,9 @@ Private fields, getters, setters ensure secure data handling.
 **Compile:**
 ```bash
 javac src/*.java
+
+## ▶️ Run the Application
+run_command: "java src/PayrollSystem"
+
+## 📜 License
+This project is licensed under the MIT License.
