@@ -57,6 +57,6 @@ javac src/*.java
 
 ## ▶️ Run the Application
 run_command: "java src/PayrollSystem"
-
-## 📜 License
-This project is licensed under the MIT License.
+```
+## License 
+- This project is licensed under the MIT License.
